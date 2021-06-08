@@ -22,7 +22,7 @@ pragma experimental ABIEncoderV2;
  */
 
 import {SafeMath} from "@openzeppelin/contracts/math/SafeMath.sol";
-import {Math} from "./Math.sol";
+import {CustomMath} from "./CustomMath.sol";
 
 /**
  * @title Decimal
@@ -58,7 +58,7 @@ library Decimal {
         pure
         returns (uint256)
     {
-        return Math.getPartial(target, d.value, BASE);
+        return CustomMath.getPartial(target, d.value, BASE);
     }
 
     function div(uint256 target, D256 memory d)
@@ -66,6 +66,6 @@ library Decimal {
         pure
         returns (uint256)
     {
-        return Math.getPartial(target, BASE, d.value);
+        return CustomMath.getPartial(target, BASE, d.value);
     }
 }

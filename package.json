@@ -1,0 +1,26 @@
+{
+  "name": "zora",
+  "version": "1.0.0",
+  "description": "Truffle Flattener for Remix on matic",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "openzeppelin-solidity": "^3.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polaris-labs/flattening-zora.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polaris-labs/flattening-zora/issues"
+  },
+  "homepage": "https://github.com/polaris-labs/flattening-zora#readme"
+}
