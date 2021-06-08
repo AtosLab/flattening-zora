@@ -9,3 +9,10 @@
 
 2. Market-falt.sol
     https://explorer-mumbai.maticvigil.com/tx/0xae96865d7f41bba7ef0087b7b3ef4f4825f8903f85e73a78e0667ba611573f5b/internal-transactions
+
+
+# Command
+
+1. truffle compile
+2. truffle-flattener contracts/Media.sol > Media-falt.sol
+3. truffle-flattener contracts/Market.sol > Market-falt.sol 
